@@ -2,9 +2,11 @@
 
 In our publication, "Smarter Evolution: Enhancing Evolutionary Black-Box Fuzzing with Adaptive Models", we presented an approach to bridge the gap between existing gray box fuzzing strategies and the real-world black box setting of fuzzing industrial control systems.
 This Jupyter Notebook was used to analyze the data created by the various fuzzing runs and to generate the corresponding figures.
-It requires the data that we generated during our experiments which can be downloaded [here](http://dx.doi.org/10.24406/fordatis/285  ).
+It requires the data that we generated during our experiments which can be downloaded [here](http://dx.doi.org/10.24406/fordatis/285).
 
 Feel free to use this Notebook and adapt it to your needs.
+
+The file `models.md` contains details on how we defined the models that we used for our evaluation.
 
 If you use our work in a publication, we would appreciate it if you would cite our work as follows:
 
@@ -14,7 +16,7 @@ If you use our work in a publication, we would appreciate it if you would cite o
   title    = {Smarter Evolution: Enhancing Evolutionary Black-Box Fuzzing with Adaptive Models},
   year     = 2023,
   journal = {Sensors},
-  doi = {https://www.mdpi.com/1424-8220/23/18/7864},
-  url = {https://doi.org/10.3390/s23187864}
+  doi = {https://doi.org/10.3390/s23187864},
+  url = {https://www.mdpi.com/1424-8220/23/18/7864}
 }
 ```
