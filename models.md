@@ -7,7 +7,7 @@ For our evaluation, we implemented three algorithms which are based on three dif
 The algorithm A_DT is based on a decision tree (DT) and roughly inspired by the work by Appelt et al. [1]. For this, we directly make use of the `DecisionTreeClassifier` provided by scikit-learn (v1.1.1). We chose the values for the `max_depth` and `max_leaf_nodes` based on the results of a preliminary evaluation with different values for both parameters. In future work, it would be interesting to analyze how much the choice of hyperparameter influences the performance of a fuzzer based on the respective models.
 
 ```python
-from sklearn.tree import DecisionTreeClassifer
+from sklearn.tree import DecisionTreeClassifier
 
 estimator_dt = DecisionTreeClassifier(max_depth = 8, max_leaf_nodes = 40)
 ```
